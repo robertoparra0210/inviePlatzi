@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Allerta&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header id="header"> <!-- Header --> 
+	<header id="header" class="header contenedor" > <!-- Header --> 
 		<figure class="logotipo"> <!-- logotipo -->
 			<img src="images/invie.png" width="186" height="60" alt="Invie logotipo">
 		</figure>
@@ -27,30 +27,49 @@
 		</nav>
 	</header>
 	<section id="portada" class="portada"><!-- portada  -->
-		<h1 class="titulo">Guitarras Invisibles</h1> <!-- titulo -->
-		<h3 class="title-a">Se el mejor guitarrista que sempre quisiste ser</h3>	<!-- resumen -->
-		<button class="boton">conoce mas</button><!-- boton -->
+		<div class="contenedor">
+			<h1 class="titulo">Guitarras Inviesibles</h1> <!-- titulo -->
+			<h3 class="title-a">Se el mejor guitarrista que sempre quisiste ser</h3>	<!-- resumen -->
+			<button class="boton">Conoce mas</button><!-- boton -->
+		</div>
 	</section>
-	<section id="guitarras" class="guitarras"> <!-- Guitarras-->
+	<section id="guitarras" class="guitarras contenedor"> <!-- Guitarras-->
 		<h2>Nuestras Guitarras</h2><!-- Titulo -->
 		<article class="guitarra"><!-- guitarra1 -->
-			<img src="images/invie-acustica.png"  width="200" alt="Guitarra invie Acustica">
+			<img  class="derecha"  src="images/invie-acustica.png"  width="350" alt="Guitarra invie Acustica">
+			<div class="contenedor-guitarra-a">
 			<h3 class="title-b"> Invie Acustica</h3>
 			 <ol>
 			 	<li> Estilo vintage</li>
 			 	<li> Madera Pura</li>
 			 	<li> Incluye estuche</li>			 	
 			 </ol>
+			</div>
 		</article>
 		<article class="guitarra"><!-- guitarra2 -->
-			<img src="images/invie-classic.png"  width="200" alt="Guitarra invie-clasic">
+			<img class="izquierda"  src="images/invie-classic.png"  width="350" alt="Guitarra invie-clasic">
+			<div class="contenedor-guitarra-b">
 			<h3 class="title-b"> Invie Clasic</h3>
 			 <ol>
 			 	<li> Estilo vintage</li>
 			 	<li> Liviana</li>
 			 	<li> incia tu camino como rockstart</li>			 	
 			 </ol>
+			</div>
 		</article>			
 	</section>
+	<footer class="footer">
+		<div class="contenedor">			
+			<div class="contacto">
+				<img src="images/invie-white.png" alt="logotipo blanco" />
+				<a href="tel:+422525252352"><stron>Telefono: </strong> <span> 3022435235</span></a>
+				<a href="mailto:sfsdfsf@Invie.com"><strong>E-mail: </strong> <span>sgnsgnpg@invie.com</span></a>
+			</div>
+			<div class="formulario">
+				formulario decontacto
+			</div>
+		</div>
+
+	</footer>
 </body>
 </html>
