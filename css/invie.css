@@ -256,6 +256,17 @@ input:focus,textarea:focus{
 	margin: 50px 0;
 }
 
+#sub-footer{
+	background-color: #000;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+}
+
+#sub-footer a{
+	color: #3BFFEB;
+	text-decoration: none;
+}
 
 
 
